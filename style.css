@@ -1,0 +1,32 @@
+body {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 600 !important;
+}
+
+:root {
+    --cor-azul: #030E4F;
+    --cor-amarelo: #F49F1C
+}
+
+.navbar {
+    font-weight: 900!important;
+}
+
+.navbar-brand {
+    color: var(--cor-azul) !important;
+}
+
+.active {
+    color: var(--cor-azul) !important;
+    border: 2px solid var(--cor-azul) !important;
+    border-radius: 8px;
+    box-shadow: inset 0px 0px 4px var(--cor-azul);
+}
+
+
+.nav-link:hover {
+    /* padding-top: 0; */
+    border-bottom: 2px solid var(--cor-azul) !important;
+    color: var(--cor-azul) !important;
+    /* transition: 500ms linear; */
+}
