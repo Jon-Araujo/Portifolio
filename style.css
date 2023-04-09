@@ -8,8 +8,24 @@ body {
     --cor-amarelo: #F49F1C
 }
 
+h1 {
+    font-size: 60px !important;
+    font-weight: 900 !important;
+}
+
+h2 {
+    font-size: 35px !important;
+}
+
+h3 {
+    font-size: 25px !important;
+    font-weight: 500 !important;
+}
+
+/*/////////////////////////// Navbar ///////////////////////////*/
+
 .navbar {
-    font-weight: 900!important;
+    font-weight: 900 !important;
 }
 
 .navbar-brand {
@@ -25,8 +41,55 @@ body {
 
 
 .nav-link:hover {
-    /* padding-top: 0; */
     border-bottom: 2px solid var(--cor-azul) !important;
     color: var(--cor-azul) !important;
-    /* transition: 500ms linear; */
+}
+
+/*/////////////////////////// Apresentação ///////////////////////////*/
+
+.apresentacao {
+    /* background-color: #666666; */
+    padding: 11em 4em;
+    background-image: url('./img/fundo-network.svg');
+}
+
+.btn-contato {
+    border: 3px solid var(--cor-azul) !important;
+    border-radius: 8px;;
+    color: var(--cor-azul);
+    width: 100%;
+}
+
+.btn-contato:hover {
+    background-color: var(--cor-azul) !important;
+    color: #FFFFFF !important;
+    transition: 1s all !important;
+}
+
+.btn-contato:hover~::after {
+    background-image: url('./img/github.png');
+}
+
+/*/////////////////////////// Sobre mim ///////////////////////////*/
+
+.img-perfil {
+    max-height: 400px;
+
+}
+
+.sobre-mim {
+    width: 50%;
+}
+
+.btn-curriculo {
+    border: 3px solid var(--cor-azul) !important;
+    border-radius: 8px;
+    color: var(--cor-azul);
+    width: 40%;
+}
+
+.btn-curriculo:hover {
+    background-color: var(--cor-azul) !important;
+    color: #FFFFFF !important;
+    transition: 1s all !important;
 }
