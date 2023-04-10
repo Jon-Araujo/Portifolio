@@ -93,3 +93,22 @@ h3 {
     color: #FFFFFF !important;
     transition: 1s all !important;
 }
+
+/*/////////////////////////// Minhas Skills ///////////////////////////*/
+
+.minhas-skills {
+    width: 50%;
+}
+
+.img-skills {
+    width: 35%;
+    background-color: #030E4F;
+}
+
+/*/////////////////////////// Projetos ///////////////////////////*/
+
+.projetos {
+    background-image: url('./img/background\ 2.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
