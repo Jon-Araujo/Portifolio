@@ -112,3 +112,10 @@ h3 {
     background-repeat: no-repeat;
     background-size: 100%;
 }
+
+/*/////////////////////////// Copyright ///////////////////////////*/
+
+.copyright {
+    background-color: var(--cor-azul);
+    color: #FFFFFF;
+}

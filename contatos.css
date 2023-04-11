@@ -1,0 +1,21 @@
+:root {
+    --cor-azul: #030E4F;
+    --cor-amarelo: #F49F1C
+}
+
+.form-titulo {
+    color: var(--cor-azul);
+    width: 50%;
+}
+
+.form {
+    width: 50%;
+}
+
+.mensagem {
+    min-height: 40%
+}
+
+.logo-rede {
+    width: 50px; 
+}
