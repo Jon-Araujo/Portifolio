@@ -118,4 +118,7 @@ h3 {
 .copyright {
     background-color: var(--cor-azul);
     color: #FFFFFF;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
