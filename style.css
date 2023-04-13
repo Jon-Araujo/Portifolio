@@ -113,12 +113,30 @@ h3 {
     background-size: 100%;
 }
 
+/*/////////////////////////// Contato ///////////////////////////*/
+.form-titulo {
+    color: var(--cor-azul);
+    width: 50%;
+}
+
+.form {
+    width: 50%;
+}
+
+.mensagem {
+    min-height: 40%
+}
+
+.logo-rede {
+    width: 50px; 
+}
+
 /*/////////////////////////// Copyright ///////////////////////////*/
 
 .copyright {
     background-color: var(--cor-azul);
     color: #FFFFFF;
-    position: absolute;
+    /* position: relative;
     bottom: 0;
-    width: 100%;
+    width: 100%; */
 }
