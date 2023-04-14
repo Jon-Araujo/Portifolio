@@ -26,19 +26,13 @@ h3 {
 
 .navbar {
     font-weight: 900 !important;
+    position: fixed !important;
+    width: 100%;
 }
 
 .navbar-brand {
     color: var(--cor-azul) !important;
 }
-
-.active {
-    color: var(--cor-azul) !important;
-    border: 2px solid var(--cor-azul) !important;
-    border-radius: 8px;
-    box-shadow: inset 0px 0px 4px var(--cor-azul);
-}
-
 
 .nav-link:hover {
     border-bottom: 2px solid var(--cor-azul) !important;
@@ -55,7 +49,8 @@ h3 {
 
 .btn-contato {
     border: 3px solid var(--cor-azul) !important;
-    border-radius: 8px;;
+    border-radius: 8px;
+    ;
     color: var(--cor-azul);
     width: 100%;
 }
@@ -116,19 +111,64 @@ h3 {
 /*/////////////////////////// Contato ///////////////////////////*/
 .form-titulo {
     color: var(--cor-azul);
-    width: 50%;
+    width: 30%;
 }
 
 .form {
-    width: 50%;
+    width: 60%;
 }
 
 .mensagem {
     min-height: 40%
 }
 
+#btn-enviar-msg {
+    color: var(--cor-azul);
+    border: 2px solid var(--cor-azul);
+    background-color: #FFFFFF;
+}
+
+#btn-enviar-msg:hover {
+    color: #FFFFFF;
+    background-color: var(--cor-azul);
+    transition: 1s all;
+}
+
 .logo-rede {
-    width: 50px; 
+    width: 50px;
+    padding-bottom: 0.5rem;
+}
+
+.links-contato {
+    width: 100%;
+    margin-top: 8rem;
+}
+
+.redes-sociais {
+    border: 3px solid var(--cor-azul);
+    border-radius: 8px;
+    padding: 1rem;
+    min-width: 20%;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: var(--cor-azul);
+}
+
+.git2 {
+    display: none;
+}
+
+.redes-sociais:hover {
+    background-color: #FFFFFF;
+    color: var(--cor-azul);
+}
+
+.git-hover:hover .git2 {
+    display: inline-block;
+}
+
+.git-hover:hover .git1 {
+    display: none;
 }
 
 /*/////////////////////////// Copyright ///////////////////////////*/

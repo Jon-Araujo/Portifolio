@@ -22,7 +22,7 @@
   <header>
     <nav class="navbar navbar-expand-lg bg-body-tertiary px-4">
       <div class="container-fluid">
-        <a class="navbar-brand fs-4" href="#">Portifólio</a>
+        <a class="navbar-brand fs-4" href="#sec-apresentacao">Portifólio</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -30,16 +30,16 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Sobre</a>
+              <a class="nav-link" aria-current="page" href="#sobre--mim">Sobre</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link ms-4" href="#">Skills</a>
+              <a class="nav-link ms-4" href="#minhas--skills">Skills</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link ms-4" href="#">Projetos</a>
+              <a class="nav-link ms-4" href="#sec-projeto">Projetos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link ms-4" href="#">Contatos</a>
+              <a class="nav-link ms-4" href="#sec-contato">Contatos</a>
             </li>
           </ul>
         </div>
@@ -48,16 +48,16 @@
   </header>
 
   <main>
-    <section class="apresentacao">
+    <section class="apresentacao" id="sec-apresentacao">
       <article class="d-inline-block">
         <h3>Olá, eu sou</h3>
         <h1>Jonathan Araujo</h1>
         <h2>Desevolvedor Front-End</h2>
-        <a class="btn btn-contato mt-5 p-3" href="#" role="button">Contate-me</a>
+        <a class="btn btn-contato mt-5 p-3" href="#sec-contato" role="button">Contate-me</a>
       </article>
     </section>
 
-    <section class="p-5 d-flex flex-column">
+    <section class="p-5 d-flex flex-column" id="sobre--mim">
       <h2 class="mb-2 ms-5">Sobre mim</h2>
       <div class="d-flex justify-content-around align-items-center">
         <img src="./img/perfil.jpg" alt="Foto de perfil" class="img-perfil rounded mt-5">
@@ -70,13 +70,13 @@
             Cupiditate recusandae laudantium esse, harum animi aspernatur quisquam et delectus ipsum quam alias
             quaerat? Quasi hic quidem illum
           </p>
-          <a href="#" class="btn-curriculo btn p-2 mt-5">Curriculo completo<img src="./img/Download.svg"
-              alt="Seta para baixo indicando download" class="ms-4"></a>
+          <a href="./Currículo-Jonathan.pdf" download class="btn-curriculo btn p-2 mt-5">Curriculo completo<img
+              src="./img/Download.svg" alt="Seta para baixo indicando download" class="ms-4"></a>
         </article>
       </div>
     </section>
 
-    <section class="p-5 d-flex flex-column">
+    <section class="p-5 d-flex flex-column" id="minhas--skills">
       <h2 class="text-center my-4">Minhas Skills</h2>
       <div class="d-flex justify-content-around mt-4">
         <article class="minhas-skills d-flex flex-column">
@@ -92,33 +92,40 @@
       </div>
     </section>
 
-    <section class="projetos">
+    <section class="projetos" id="sec-projeto">
       <h2 class="text-center my-5">Projetos</h2>
       <article class="projetos text-center pb-5">
         <img src="img/Frame 15.svg" alt="img provisória de projetos">
       </article>
     </section>
 
-    <section class=" p-5">
-      <h2 class="form-titulo text-center mb-5">Mande-me uma mensagem!</h2>
-      <div class="d-flex justify-content-between align-items-center">
+    <section class="p-5" id="sec-contato">
+      <div class="d-flex justify-content-around align-items-center flex-wrap">
+        <h2 class="form-titulo text-center mb-5">Mande-me uma mensagem!</h2>
         <form class="form d-flex flex-column">
           <input class="p-2 mb-4" type="text" placeholder="Nome">
           <input class="p-2 mb-4" type="email" placeholder="Email">
           <input class="p-2 mb-4" type="tel" placeholder="Número de celular">
           <input class="p-2 mb-4" type="text" placeholder="Assunto">
           <textarea class="p-2 mensagem" placeholder="Mensagem"></textarea>
+          <button type="submit" id="btn-enviar-msg" class="p-2 mt-5 rounded">Enviar mensagem</button>
         </form>
 
-        <div class="d-flex align-items-center text-center">
-          <h2>Entre em contato!</h2>
-          <img class="logo-rede" src="./img/linkedin.png" alt="Logo do linkedin">
-          <p>Linkedin <br /> @JonathanAraujo</p>
-          <img class="logo-rede" src="./img/github.png" alt="Logo do github">
-          <p>GitHub <br /> @JonathanAraujo</p>
-          <!-- https://api.whatsapp.com/send?phone=<put you phone here 5521xxxxxxxx> -->
-          <img class="logo-rede" src="./img/wpp.svg" alt="Logo do whatsapp">
-          <p>WhatsApp <br /> (21) 98347-1227</p>
+        <div class="d-flex align-items-center text-center justify-content-around links-contato">
+          <a href="https://www.linkedin.com/in/dev-jonathan-araujo/" class="redes-sociais">
+            <img class="logo-rede" src="./img/linkedin.png" alt="Logo do linkedin">
+            <p>Linkedin <br /> @JonathanAraujo</p>
+          </a>
+          <a href="https://github.com/Jon-Araujo" class="redes-sociais git-hover">
+            <img class="logo-rede git1" src="./img/github-white.png" alt="Logo do github">
+            <img class="logo-rede git2" src="./img/github.png" alt="Logo do github">
+            <p>GitHub <br /> @JonathanAraujo</p>
+          </a>
+          <a href="https://api.whatsapp.com/send?phone=5521983471227" class="redes-sociais">
+            <img class="logo-rede" src="./img/wpp.svg" alt="Logo do whatsapp">
+            <p>WhatsApp <br /> (21) 98347-1227</p>
+          </a>
+          <h2 class="form-titulo">Entre em contato!</h2>
         </div>
       </div>
     </section>
