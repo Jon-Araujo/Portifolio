@@ -9,6 +9,7 @@
 
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="dark-mode.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,9 +19,9 @@
     integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 </head>
 
-<body class="fs-5">
+<body class="fs-5 dark-mode-body">
   <header>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary px-4">
+    <nav class="navbar navbar-expand-lg px-4">
       <div class="container-fluid">
         <a class="navbar-brand fs-4" href="#sec-apresentacao">Portifólio</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -92,10 +93,20 @@
       </div>
     </section>
 
-    <section class="projetos" id="sec-projeto">
+    <section class="projetos p-5" id="sec-projeto">
       <h2 class="text-center my-5">Projetos</h2>
-      <article class="projetos text-center pb-5">
-        <img src="img/Frame 15.svg" alt="img provisória de projetos">
+      
+      <article class="lista-cards text-center pb-5">
+        <div class="card-projeto d-flex align-items-center justify-content-center flex-column">
+          <img src="./img-projetos/Robotron 2000 - Google Chrome 15_04_2023 13_15_33.png" alt="Projeto do Robotron 2000" class="img-projeto">
+          <div class="descricao-card">
+            <p class="nome-projeto p-2 rounded">Robotron 2000</p>
+          </div>
+          <div class="ver-mais-card">
+            <p>ver mais</p>
+          </div>
+        </div>
+      
       </article>
     </section>
 
