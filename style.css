@@ -115,25 +115,16 @@ h3 {
     grid-template-columns: repeat(3, 1fr);
 }
 
-.img-projeto {
-    max-width: 100%;
-    opacity: 0.5;
+.card-projeto {
     transition: 0.5s;
 }
 
-.img-projeto:hover {
-    opacity: 1;
-    transform: scale(1.2);
+.img-projeto {
+    max-width: 100%;
+    opacity: 0.7;
+    transition: 0.5s;
 }
 
-.img-projeto:hover~.descricao-card {
-    display: block;
-}
-
-.img-projeto:hover~.ver-mais-card {
-    display: block;
-    transform: scale(1.2);
-}
 
 .descricao-card {
     position: absolute;
@@ -150,6 +141,25 @@ h3 {
     width: 100%;
     background-color: var(--cor-azul);
     color: #FFFFFF;
+    border: 0;
+    border-radius: 0 0 8px 8px;
+}
+
+.card-projeto:hover {
+    transform: scale(1.1);
+}
+
+.card-projeto:hover .img-projeto {
+    opacity: 1;
+    transition: 0.7s;
+}
+
+.card-projeto:hover .ver-mais-card {
+    display: block;
+}
+
+.card-projeto:hover .descricao-card {
+    display: none;
 }
 
 /*/////////////////////////// Contato ///////////////////////////*/
