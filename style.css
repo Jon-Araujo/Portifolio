@@ -43,7 +43,6 @@ h3 {
 /*/////////////////////////// Apresentação ///////////////////////////*/
 
 .apresentacao {
-    /* background-color: #666666; */
     padding: 11em 4em;
     background-image: url('./img/fundo-network.svg');
 }
@@ -67,7 +66,6 @@ h3 {
 }
 
 /*/////////////////////////// Sobre mim ///////////////////////////*/
-
 .img-perfil {
     max-height: 400px;
 
@@ -97,11 +95,24 @@ h3 {
 }
 
 .skill-progressos{
-    width: 60%;
+    width: 40%;
 }
 
 .progresso {
     width: 70%;
+}
+
+.skills-card {
+    width: 100%;
+}
+
+.icones-estudados {
+    transition: 0.5s;
+    margin-top: 8rem;
+}
+
+.icones-estudados:hover {
+    transform: scale(2);
 }
 
 /*/////////////////////////// Projetos ///////////////////////////*/
@@ -144,7 +155,6 @@ h3 {
     width: 100%;
     background-color: var(--cor-azul);
     color: #FFFFFF;
-    /* border: 0; */
     border-radius: 0 0 8px 8px;
 }
 
@@ -234,7 +244,19 @@ h3 {
 .copyright {
     background-color: var(--cor-azul);
     color: #FFFFFF;
-    /* position: relative;
-    bottom: 0;
-    width: 100%; */
+}
+
+/*////////////////////////// Generalizações //////////////////////*/
+.apresentacao,
+#sobre--mim,
+#minhas--skills,
+#sec-projeto,
+#sec-contato {
+    min-height: 100vh;
+}
+
+h1,
+h2,
+h3 {
+    color: var(--cor-azul) !important;
 }
