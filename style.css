@@ -96,9 +96,12 @@ h3 {
     width: 50%;
 }
 
-.img-skills {
-    width: 35%;
-    background-color: #030E4F;
+.skill-progressos{
+    width: 60%;
+}
+
+.progresso {
+    width: 70%;
 }
 
 /*/////////////////////////// Projetos ///////////////////////////*/
@@ -141,7 +144,7 @@ h3 {
     width: 100%;
     background-color: var(--cor-azul);
     color: #FFFFFF;
-    border: 0;
+    /* border: 0; */
     border-radius: 0 0 8px 8px;
 }
 
@@ -219,6 +222,7 @@ h3 {
 
 .git-hover:hover .git2 {
     display: inline-block;
+    transform: scale(1.6);
 }
 
 .git-hover:hover .git1 {
