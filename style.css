@@ -40,6 +40,16 @@ h3 {
     color: var(--cor-azul) !important;
 }
 
+/*/////////////////////////// Dark-mode ///////////////////////////*/
+
+.btn-darkmode {
+    position: fixed;
+    top: 5rem;
+    right: 1rem;
+    max-width: 3rem;
+    max-height: 3rem;
+}
+
 /*/////////////////////////// Apresentação ///////////////////////////*/
 
 .apresentacao {
@@ -50,19 +60,14 @@ h3 {
 .btn-contato {
     border: 3px solid var(--cor-azul) !important;
     border-radius: 8px;
-    ;
     color: var(--cor-azul);
     width: 100%;
+    transition: 1s all !important;
 }
 
 .btn-contato:hover {
     background-color: var(--cor-azul) !important;
     color: #FFFFFF !important;
-    transition: 1s all !important;
-}
-
-.btn-contato:hover~::after {
-    background-image: url('./img/github.png');
 }
 
 /*/////////////////////////// Sobre mim ///////////////////////////*/
@@ -80,12 +85,12 @@ h3 {
     border-radius: 8px;
     color: var(--cor-azul);
     width: 40%;
+    transition: 1s all !important;
 }
 
 .btn-curriculo:hover {
     background-color: var(--cor-azul) !important;
     color: #FFFFFF !important;
-    transition: 1s all !important;
 }
 
 /*/////////////////////////// Minhas Skills ///////////////////////////*/
@@ -193,12 +198,12 @@ h3 {
     color: var(--cor-azul);
     border: 2px solid var(--cor-azul);
     background-color: #FFFFFF;
+    transition: 1s all;
 }
 
 #btn-enviar-msg:hover {
     color: #FFFFFF;
     background-color: var(--cor-azul);
-    transition: 1s all;
 }
 
 .logo-rede {
@@ -219,6 +224,7 @@ h3 {
     text-decoration: none;
     color: #FFFFFF;
     background-color: var(--cor-azul);
+    transition: 0.5s all;
 }
 
 .git2 {

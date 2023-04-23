@@ -1,6 +1,57 @@
-/* .dark-mode-body, .navbar {
+.dark-mode-body,
+.navbar {
     background-image: url('./img/Frame 1.png');
     background-repeat: repeat-y;
     background-size: 100%;
-    color: #ACACAC;
-} */
+}
+
+.dark-texto-cor {
+    color: #CCCCCC !important;
+}
+
+/*/////////////////////////// Navbar ///////////////////////////*/
+.navbar-brand,
+.nav-link {
+    color: #CCCCCC !important;
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid #CCCCCC !important;
+    color: #CCCCCC !important;
+}
+
+/*/////////////////////////// Dark-mode ///////////////////////////*/
+
+.btn-darkmode {
+    position: fixed;
+    top: 5rem;
+    right: 1rem;
+    max-width: 3rem;
+    max-height: 3rem;
+}
+
+/*/////////////////////////// Apresentação ///////////////////////////*/
+
+.btn-contato-dark {
+    color: #CCCCCC !important;
+    border-color: #CCCCCC !important;
+}
+
+/*/////////////////////////// Sobre mim ///////////////////////////*/
+
+.btn-curriculo {
+    border-color: #CCCCCC !important;
+    color: #CCCCCC !important;
+}
+
+/*/////////////////////////// Contato ///////////////////////////*/
+
+#btn-enviar-msg {
+    color: #CCCCCC;
+    border-color: #CCCCCC;
+    background: none !important
+}
+
+#btn-enviar-msg:hover {
+    background-color: var(--cor-azul) !important;
+}
