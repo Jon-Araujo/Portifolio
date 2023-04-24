@@ -5,7 +5,7 @@ body {
 
 :root {
     --cor-azul: #030E4F;
-    --cor-amarelo: #F49F1C;
+    --cor-cinza: #CCCCCC;
 }
 
 h1 {
@@ -29,6 +29,7 @@ h3 {
     position: fixed !important;
     width: 100%;
     background-color: #FFFFFF;
+    z-index: 9999;
 }
 
 .navbar-brand {
@@ -73,6 +74,15 @@ h3 {
 /*/////////////////////////// Sobre mim ///////////////////////////*/
 .img-perfil {
     max-height: 400px;
+    position: relative;
+    bottom: 2rem;
+    left: 2rem;
+    border-radius: 20px;
+}
+
+#moldura-foto {
+    border: 3px solid var(--cor-azul);
+    border-radius: 20px;
 
 }
 
@@ -99,7 +109,7 @@ h3 {
     width: 50%;
 }
 
-.skill-progressos{
+.skill-progressos {
     width: 40%;
 }
 

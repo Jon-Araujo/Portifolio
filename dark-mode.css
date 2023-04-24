@@ -1,23 +1,23 @@
 .dark-mode-body,
-.navbar {
+.navbar-dark {
     background-image: url('./img/Frame 1.png');
     background-repeat: repeat-y;
     background-size: 100%;
 }
 
 .dark-texto-cor {
-    color: #CCCCCC !important;
+    color: var(--cor-cinza) !important;
 }
 
 /*/////////////////////////// Navbar ///////////////////////////*/
-.navbar-brand,
+/* .navbar-brand,
 .nav-link {
-    color: #CCCCCC !important;
-}
+    color: var(--cor-cinza) !important;
+} */
 
 .nav-link:hover {
-    border-bottom: 2px solid #CCCCCC !important;
-    color: #CCCCCC !important;
+    border-bottom: 2px solid var(--cor-cinza) !important;
+    color: var(--cor-cinza) !important;
 }
 
 /*/////////////////////////// Dark-mode ///////////////////////////*/
@@ -33,25 +33,30 @@
 /*/////////////////////////// Apresentação ///////////////////////////*/
 
 .btn-contato-dark {
-    color: #CCCCCC !important;
-    border-color: #CCCCCC !important;
+    /* color: var(--cor-cinza) !important; */
+    border-color: var(--cor-cinza) !important;
 }
 
 /*/////////////////////////// Sobre mim ///////////////////////////*/
 
-.btn-curriculo {
-    border-color: #CCCCCC !important;
-    color: #CCCCCC !important;
+.moldura-foto-dark {
+    border-color: var(--cor-cinza) !important;
+}
+
+
+.btn-curriculo-dark {
+    border-color: none !important;
+    background-color: var(--cor-cinza) !important;
 }
 
 /*/////////////////////////// Contato ///////////////////////////*/
 
-#btn-enviar-msg {
-    color: #CCCCCC;
-    border-color: #CCCCCC;
+.btn-enviar-msg-dark {
+    color: var(--cor-cinza);
+    border-color: var(--cor-cinza);
     background: none !important
 }
 
-#btn-enviar-msg:hover {
+.btn-enviar-msg-dark:hover {
     background-color: var(--cor-azul) !important;
 }
