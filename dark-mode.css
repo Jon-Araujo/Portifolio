@@ -1,3 +1,15 @@
+/*/////////////////////////// Dark-mode / Light-mode ///////////////////////////*/
+
+.btn-darkmode {
+    position: fixed;
+    top: 5rem;
+    right: 1rem;
+    max-width: 3rem;
+    max-height: 3rem;
+}
+
+/*/////////////////////////// Principal ///////////////////////////*/
+
 .dark-mode-body,
 .navbar-dark {
     background-image: url('./img/Frame 1.png');
@@ -10,43 +22,15 @@
 }
 
 /*/////////////////////////// Navbar ///////////////////////////*/
-/* .navbar-brand,
-.nav-link {
-    color: var(--cor-cinza) !important;
-} */
 
-.nav-link:hover {
+.nav-link-dark:hover {
     border-bottom: 2px solid var(--cor-cinza) !important;
     color: var(--cor-cinza) !important;
 }
 
-/*/////////////////////////// Dark-mode ///////////////////////////*/
-
-.btn-darkmode {
-    position: fixed;
-    top: 5rem;
-    right: 1rem;
-    max-width: 3rem;
-    max-height: 3rem;
-}
-
-/*/////////////////////////// Apresentação ///////////////////////////*/
-
-.btn-contato-dark {
-    /* color: var(--cor-cinza) !important; */
-    border-color: var(--cor-cinza) !important;
-}
-
-/*/////////////////////////// Sobre mim ///////////////////////////*/
-
-.moldura-foto-dark {
-    border-color: var(--cor-cinza) !important;
-}
-
-
-.btn-curriculo-dark {
-    border-color: none !important;
-    background-color: var(--cor-cinza) !important;
+/*/////////////////////////// Minhas skills ///////////////////////////*/
+#github-icone-estudado {
+    max-block-size: 45px;
 }
 
 /*/////////////////////////// Contato ///////////////////////////*/
@@ -59,4 +43,10 @@
 
 .btn-enviar-msg-dark:hover {
     background-color: var(--cor-azul) !important;
+}
+
+/*/////////////////////////// Generalizações ///////////////////////////*/
+
+.borda-dark {
+    border-color: var(--cor-cinza) !important;
 }
