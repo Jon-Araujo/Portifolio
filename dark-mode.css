@@ -29,8 +29,8 @@
 }
 
 /*/////////////////////////// Minhas skills ///////////////////////////*/
-#github-icone-estudado {
-    max-block-size: 45px;
+.github-icone-dark {
+    background-image: url('./img/github-white.png') !important;
 }
 
 /*/////////////////////////// Contato ///////////////////////////*/

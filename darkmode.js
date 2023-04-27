@@ -7,7 +7,7 @@ export function darkmode() {
     const btnContato = document.querySelector('.btn-contato');
     const molduraFotoPrincipal = document.getElementById('moldura-foto');
     const btnCurriculo = document.querySelector('.btn-curriculo')
-    const githubDarkMode = document.querySelector('#github-icone-estudado');
+    const githubLight = document.querySelector('.github-icone-light');
 
 
     btnDark.addEventListener("click", () => {
@@ -22,7 +22,7 @@ export function darkmode() {
         molduraFotoPrincipal.classList.toggle('borda-dark');
         btnCurriculo.classList.toggle('borda-dark');
 
-        githubDarkMode.toggleAttribute('src', './img/github-white.png');
+       githubLight.classList.toggle('github-icone-dark');
 
     });
 }

@@ -149,8 +149,8 @@
           alt="Icone da linguagem de programação JS.">
         <img class="icones-estudados ms-4" src="./img/img-skills/icons8-bootstrap.svg"
           alt="Icone do framework de CSS Bootstrap.">
-        <img class="icones-estudados ms-4" id="github-icone-estudado" src="./img/img-skills/icons8-github.svg"
-          alt="Icone da plataforma Github.">
+        <span class="icones-estudados ms-4 github-icone-light">
+        </span>
         <img class="icones-estudados ms-4" src="./img/img-skills/icons8-git.svg" alt="Icone da platafoma Git.">
         <img class="icones-estudados ms-4" src="./img/img-skills/icons8-python.svg"
           alt="Icone da linguagem de programação Python.">
@@ -167,7 +167,29 @@
           <div class="descricao-card">
             <p class="nome-projeto p-2 rounded">Robotron 2000</p>
           </div>
-          <button class="ver-mais-card">Ver mais</button>
+          <button type="button" class=" ver-mais-card" data-bs-toggle="modal" data-bs-target="#exampleModal">Ver
+            mais</button>
+        </div>
+
+
+        <!-- Modal -->
+        <div class="modal fade popup" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                ...
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </div>
+          </div>
         </div>
 
         <div class="card-projeto d-flex align-items-center justify-content-center flex-column">

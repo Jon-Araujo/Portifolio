@@ -49,6 +49,7 @@ h3 {
     right: 1rem;
     max-width: 3rem;
     max-height: 3rem;
+    z-index: 9999;
 }
 
 /*/////////////////////////// Apresentação ///////////////////////////*/
@@ -130,6 +131,12 @@ h3 {
     transform: scale(2);
 }
 
+.github-icone-light {
+    background-image: url('img/img-skills/icons8-github.svg');
+    width: 50px;
+    background-repeat: no-repeat;
+}
+
 /*/////////////////////////// Projetos ///////////////////////////*/
 
 .projetos {
@@ -189,6 +196,11 @@ h3 {
 .card-projeto:hover .descricao-card {
     display: none;
 }
+
+/*/////////////////////////// PopUp Projeto ///////////////////////////*/
+
+
+
 
 /*/////////////////////////// Contato ///////////////////////////*/
 .form-titulo {
