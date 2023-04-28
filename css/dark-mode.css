@@ -12,7 +12,7 @@
 
 .dark-mode-body,
 .navbar-dark {
-    background-image: url('./img/Frame 1.png');
+    background-image: url('../img/Frame 1.png');
     background-repeat: repeat-y;
     background-size: 100%;
 }
@@ -30,7 +30,7 @@
 
 /*/////////////////////////// Minhas skills ///////////////////////////*/
 .github-icone-dark {
-    background-image: url('./img/github-white.png') !important;
+    background-image: url('../img/github-white.png') !important;
 }
 
 /*/////////////////////////// Contato ///////////////////////////*/
