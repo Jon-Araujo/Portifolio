@@ -2,7 +2,7 @@ export async function popUpProjetos() {
     const listaJson = await (await fetch("./projetos.json")).json();
     const listaProjetos = listaJson.projetos;
     const cardVerMais = document.querySelectorAll('.card-projeto');
-
+    
     for (let i = 0; i < cardVerMais.length; i++) {
         cardVerMais[i].insertAdjacentHTML('afterend', `
             <div class="modal fade" id="card${i}" tabindex="-1" aria-labelledby="cardLabel${i}" aria-hidden="true">
