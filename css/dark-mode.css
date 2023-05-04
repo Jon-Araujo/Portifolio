@@ -33,6 +33,18 @@
     background-image: url('../img/github-white.png') !important;
 }
 
+.certificacoes-dark {
+    background: none !important;
+}
+
+.certificacoes-dark::-webkit-scrollbar-track-piece {
+    background-color: var(--cor-azul) !important;
+}
+
+.certificacoes-dark::-webkit-scrollbar-thumb:horizontal {
+    background-color: var(--cor-cinza);
+}
+
 /*/////////////////////////// Contato ///////////////////////////*/
 
 .btn-enviar-msg-dark {

@@ -8,6 +8,7 @@ export function darkmode() {
     const molduraFotoPrincipal = document.getElementById('moldura-foto');
     const btnCurriculo = document.querySelector('.btn-curriculo')
     const githubLight = document.querySelector('.github-icone-light');
+    const certificacoes = document.querySelector('.certificacoes');
 
 
     btnDark.addEventListener("click", () => {
@@ -23,6 +24,8 @@ export function darkmode() {
         btnCurriculo.classList.toggle('borda-dark');
 
        githubLight.classList.toggle('github-icone-dark');
+
+       certificacoes.classList.toggle('certificacoes-dark');
 
     });
 }

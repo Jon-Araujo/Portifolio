@@ -124,7 +124,6 @@ h3 {
 
 .icones-estudados {
     transition: 0.5s;
-    margin-top: 8rem;
 }
 
 .icones-estudados:hover {
@@ -135,6 +134,60 @@ h3 {
     background-image: url('../img/img-skills/icons8-github.svg');
     width: 50px;
     background-repeat: no-repeat;
+}
+
+.btn-certificados {
+    transition: 0.5s all !important;
+}
+
+.btn-certificados:hover {
+    background-color: var(--cor-azul) !important;
+    color: #FFFFFF !important;
+}
+
+.btn-certificados:hover .seta-expande {
+    padding-left: 4rem !important;
+    transition: 0.5s;
+}
+
+.certificacoes {
+    flex-direction: row !important;
+    background-color: #F7F7F5 !important;
+    overflow-x: visible;
+    overflow-y: hidden;
+    box-shadow: inset 0 0 25px;
+}
+
+.certificacoes::-webkit-scrollbar {
+    width: 18px;
+    height: 5px;
+}
+
+.certificacoes::-webkit-scrollbar-button {
+    background-color: none !important;
+    width: 0px;
+    height: 0px;
+}
+
+.certificacoes::-webkit-scrollbar-track-piece {
+    background-color: #E7E7E7;
+    -webkit-border-radius: 8px;
+}
+
+.certificacoes::-webkit-scrollbar-thumb:horizontal {
+    width: 3px;
+    background-color: var(--cor-azul);
+    -webkit-border-radius: 8px;
+}
+
+.img-certificacoes {
+    max-width: 400px;
+    transition: 0.5s;
+}
+
+.img-certificacoes:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
 }
 
 /*/////////////////////////// Projetos ///////////////////////////*/
