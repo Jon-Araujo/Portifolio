@@ -22,6 +22,13 @@ h3 {
     font-weight: 500 !important;
 }
 
+.access-button {
+    top: 15rem !important;
+    right: 0;
+    position: fixed !important;
+    max-width: 48px;
+}
+
 /*/////////////////////////// Navbar ///////////////////////////*/
 
 .navbar {
@@ -43,13 +50,31 @@ h3 {
 
 /*/////////////////////////// Dark-mode ///////////////////////////*/
 
+.frase-dark {
+    display: none;
+    background-color: var(--cor-azul);
+}
+
+.frase-light {
+    display: none;
+    color: var(--cor-azul);
+}
+
 .btn-darkmode {
     position: fixed;
-    top: 5rem;
-    right: 1rem;
+    top: 8rem;
+    right: 0;
+    z-index: 9999;
+    padding-right: 0;
+}
+
+.img-darkmode {
     max-width: 3rem;
     max-height: 3rem;
-    z-index: 9999;
+}
+
+.btn-darkmode:hover .frase-dark {
+    display: block;
 }
 
 /*/////////////////////////// Apresentação ///////////////////////////*/
@@ -347,4 +372,224 @@ h1,
 h2,
 h3 {
     color: var(--cor-azul) !important;
+}
+
+/* Responsividade */
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .nav-link {
+        margin-left: 1.5rem !important;
+    }
+
+    .apresentacao,
+    #sobre--mim,
+    #minhas--skills,
+    #sec-projeto,
+    #sec-contato {
+        min-height: 50vh;
+    }
+
+    #sobre--mim {
+        padding: 0.5rem !important;
+    }
+
+    .sobre-mim {
+        width: 90%;
+    }
+
+    .sobre-mim-secao {
+        flex-direction: column;
+    }
+
+    .sobre-mim>h3 {
+        margin-top: 3rem;
+    }
+
+    #minhas--skills>h2 {
+        margin-bottom: 5rem !important;
+    }
+
+    #minhas--skills>div {
+        align-items: flex-start !important;
+    }
+
+    .nome-projeto {
+        transform: scale(0.7);
+    }
+
+    .modal-content {
+        max-height: 75% !important;
+    }
+
+
+    .modal-body {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .modal-body video {
+        width: 100% !important;
+    }
+
+    .modal-body div {
+        width: 100% !important;
+        padding: 0 !important;
+        margin-top: 2rem;
+    }
+
+    .modal-footer {
+        justify-content: center !important;
+    }
+
+    .certificacoes::-webkit-scrollbar {
+        width: 18px;
+        height: 15px !important;
+    }
+
+    .contatos-subtitulo {
+        display: none;
+    }
+
+    .redes-sociais {
+        min-width: 200px;
+    }
+}
+
+/* Smartphone */
+@media screen and (max-width: 767px) {
+    .alinha-mobile {
+        margin-left: 1.5rem;
+    }
+
+    .apresentacao {
+        padding: 11em 1em;
+    }
+
+    .apresentacao > article > h2 {
+        font-size: 0.5rem;
+    }
+
+    .sobre-mim-secao {
+        flex-direction: column;
+    }
+
+    .sobre-mim {
+        width: 90%
+    }
+
+    .sobre-mim h3 {
+        margin: 2rem 0 !important;
+    }
+
+    #sobre--mim {
+        padding: 0 !important;
+    }
+
+    .img-perfil {
+        max-width: 100%;
+    }
+
+    #moldura-foto {
+        max-width: 65%;
+    }
+
+    .btn-curriculo {
+        width: 90%
+    }
+
+    #minhas--skills {
+        padding: 2rem 1rem !important;
+    }
+
+    #minhas--skills h2 {
+        text-align: start !important;
+        margin-bottom: 3rem !important;
+    }
+
+    .skills-corpo {
+        flex-direction: column;
+    }
+
+    .skill-progressos h3 {
+        margin-top: 2rem;
+    }
+
+    .skill-progressos,
+    .minhas-skills {
+        width: 100%;
+    }
+
+    .lista-icones {
+        flex-wrap: wrap;
+    }
+
+    .icones-estudados {
+        margin-top: 1rem;
+    }
+
+    .certificacoes::-webkit-scrollbar:horizontal {
+        height: 12px !important;
+    }
+
+    .certificacoes::-webkit-scrollbar-thumb {
+        width: 70px !important;
+    }
+
+    .lista-cards {
+        display: flex !important;
+        flex-direction: column;
+    }
+
+    .modal-content {
+        max-height: 80% !important;
+    }
+
+    .modal-body {
+        flex-direction: column;
+    }
+
+    .modal-body video,
+    .modal-body div {
+        width: 100% !important;
+        padding: 0.5rem 0 0 !important;
+    }
+
+    .modal-footer {
+        display: grid !important;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .nome-projeto {
+        transform: scale(0.7);
+    }
+
+    .form {
+        width: 100%;
+    }
+
+    .form-titulo {
+        width: 100%;
+    }
+
+    .links-contato {
+        margin-top: 4rem;
+        flex-wrap: wrap;
+    }
+
+    .redes-sociais {
+        width: 30%;
+    }
+
+    .logo-rede+p {
+        display: none;
+    }
+
+    .contatos-subtitulo {
+        margin-top: 1.5rem;
+    }
+
+    .copyright {
+        margin: 0 !important;
+    }
+
 }

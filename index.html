@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portifólio</title>
+  <link rel="icon" type="image/x-icon" href="./img/favicon.png">
 
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/style.css">
@@ -23,6 +24,7 @@
 </head>
 
 <body class="fs-5">
+  <!--Navbar-->
   <header>
     <nav class="navbar navbar-expand-lg px-4">
       <div class="container-fluid">
@@ -34,7 +36,7 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link texto" aria-current="page" href="#sobre--mim">Sobre</a>
+              <a class="nav-link texto alinha-mobile" aria-current="page" href="#sobre--mim">Sobre</a>
             </li>
             <li class="nav-item">
               <a class="nav-link ms-4 texto" href="#minhas--skills">Skills</a>
@@ -52,8 +54,15 @@
   </header>
 
   <main>
-    <button><img class="btn-darkmode" src="./img/dark-mode-btn.png" alt=""></button>
+    <!--Botão dark-mode-->
+    <button class="btn-darkmode d-flex border border-0 bg-transparent">
+      <p class="me-3 p-2 rounded-pill text-light frase-dark">Mudar para Dark-Mode</p>
+      <p class="me-3 p-2 rounded-pill frase-light">Mudar para Light-Mode</p>
+      <img class="img-darkmode" src="./img/dark-mode-btn.png"
+        alt="Símbolo de sol e lua juntos, remetendo a transição de light-mode para dark-mode.">
+    </button>
 
+    <!--Seção apresentação-->
 
     <section class="apresentacao" id="sec-apresentacao">
       <article class="d-inline-block">
@@ -64,20 +73,23 @@
       </article>
     </section>
 
+    <!--Seção "sobre mim"-->
+
     <section class="p-5 d-flex flex-column" id="sobre--mim">
       <h2 class="mb-2 ms-5 texto">Sobre mim</h2>
-      <div class="d-flex justify-content-around align-items-center mt-5">
+      <div class="d-flex justify-content-around align-items-center mt-5 sobre-mim-secao">
         <div id="moldura-foto" class="mt-5">
           <img src="./img/perfil.jpg" alt="Foto de perfil" class="img-perfil">
         </div>
         <article class="sobre-mim text-center">
           <h3 class="mb-5 texto">Quem eu sou?</h3>
           <p class="texto">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at tellus semper lacus varius suscipit.
-            Suspendisse pulvinar, justo id scelerisque efficitur, quam augue pharetra metus, ultricies finibus elit
-            ipsum vitae.
-            Cupiditate recusandae laudantium esse, harum animi aspernatur quisquam et delectus ipsum quam alias
-            quaerat? Quasi hic quidem illum
+            Programador cursando desenvolvimento Full Stack na Universidade Estácio de Sá,
+            com experiência até o momento nas linguagens de programação Python, Javascript e estudando 
+            Typescript, além dos Frameworks BootStrap e Vue.js. Focado em desenvolvimento Front-End, apaixonado por
+            transformar uma página em branco em um espelho de um layout, porém totalmente responsivo e funcional.
+            Estou sempre em constante aprimoramento profissional para entregar sempre o melhor serviço, além de
+            ser aficionado por novos desafios pois sei que são eles que nos fazem evoluir. 
           </p>
           <a href="./Currículo-Jonathan.pdf" download class="btn-curriculo texto btn p-2 mt-5">Curriculo completo<img
               src="./img/Download.svg" alt="Seta para baixo indicando download" class="ms-4"></a>
@@ -85,16 +97,19 @@
       </div>
     </section>
 
+    <!--Seção skills-->
+
     <section class="p-5" id="minhas--skills">
       <h2 class="text-center my-4 texto">Minhas Skills</h2>
-      <div class="d-flex justify-content-around mt-4 align-items-center">
+      <div class="d-flex justify-content-around mt-4 align-items-center skills-corpo">
         <article class="minhas-skills d-flex flex-column">
-          <h3 class="mb-5 text-center texto">My creative skills and experiences.</h3>
+          <h3 class="mb-5 text-center texto">Experiências</h3>
           <p class="texto">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, ratione error est recusandae
-            consequatur, iusto illum deleniti quidem impedit, quos quaerat quis minima sequi. Cupiditate recusandae
-            laudantium esse, harum animi aspernatur quisquam et delectus ipsum quam alias quaerat? Quasi hic quidem
-            illum. Ad delectus natus aut hic explicabo minus quod.
+            Atualmente, no cargo de 1º Tenente do Exército Brasileiro, atuo como
+            chefe da seção de informática, implementando e gerenciando plataformas as quais
+            permitem que seja continuado o acesso de todos os militares do batalhão nos sistemas
+            necessários de maneira mais intuitiva possível e, em paralelo, desenvolvemos novas plataformas
+            com o intuito de facilitar a confecção de diversos processos neste âmbito.
           </p>
         </article>
 
@@ -144,7 +159,7 @@
       </div>
 
       <h3 class="texto my-5 text-center">Habilidades</h3>
-      <article class="d-flex justify-content-center">
+      <article class="d-flex justify-content-center lista-icones">
         <img class="icones-estudados" src="./img/img-skills/icons8-html-5.svg"
           alt="Icone da linguagem de marcação HTML5.">
         <img class="icones-estudados ms-4" src="./img/img-skills/icons8-css3.svg"
@@ -201,6 +216,8 @@
       </article>
     </section>
 
+    <!--seção projetos-->
+
     <section class="projetos p-5" id="sec-projeto">
       <h2 class="text-center my-5 texto">Projetos</h2>
 
@@ -241,6 +258,8 @@
       </article>
     </section>
 
+    <!--Seção contato-->
+
     <section class="p-5" id="sec-contato">
       <div class="d-flex justify-content-around align-items-center flex-wrap">
         <h2 class="form-titulo text-center mb-5 texto">Mande-me uma mensagem!</h2>
@@ -267,12 +286,13 @@
             <img class="logo-rede" src="./img/wpp.svg" alt="Logo do whatsapp">
             <p>WhatsApp <br /> (21) 98347-1227</p>
           </a>
-          <h2 class="form-titulo texto">Entre em contato!</h2>
+          <h2 class="form-titulo contatos-subtitulo texto">Entre em contato!</h2>
         </div>
       </div>
     </section>
-
   </main>
+
+  <!--Rodapé da página-->
 
   <footer>
     <section>
@@ -282,10 +302,17 @@
     </section>
   </footer>
 
+  <!--Funções internas do projeto-->
+
   <script src="main.js" type="module"></script>
+
+  <!--CDN JS Framework Bootstrap-->
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
     crossorigin="anonymous"></script>
+
+  <!--API e função para o envio de email-->
 
   <script src="https://smtpjs.com/v3/smtp.js"></script>
 
@@ -309,7 +336,20 @@
     };
 
     const btnEnviaMsg = document.getElementById('btn-enviar-msg');
-    btnEnviaMsg.addEventListener("click", enviaEmail)
+    btnEnviaMsg.addEventListener("click", enviaEmail);
+  </script>
+
+  <!-- VLibras: -->
+
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
   </script>
 </body>
 

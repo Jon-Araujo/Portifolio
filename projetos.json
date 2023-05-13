@@ -3,7 +3,7 @@
         {
             "video": "./videos/robotron2000.mp4",
             "titulo": "Robotron 2000",
-            "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at tellus semper lacus varius suscipit. Suspendisse pulvinar, justo id scelerisque efficitur, quam augue pharetra metus, ultricies finibus elitipsum vitae. Cupiditate recusandae laudantium esse, harum animi aspernatur quisquam et delectus ipsum quam alias quaerat? Quasi hic quidem illum",
+            "descricao": "Projeto que utiliza manipulação do DOM para atualizar propriedades de um robô onde é preciso achar um equilibro das funcionalidades para obter um robô mais otimizado de acordo com o seu propósito, além de ser possível customizá-lo escolhendo sua cor.",
             "data": "26 de março de 2023",
             "projeto": "https://robotron-2000-alura-gules.vercel.app/",
             "repositorio": "https://github.com/Jon-Araujo/Robotron-2000-ALURA",
@@ -12,7 +12,7 @@
         {
             "video": "./videos/filmesPopulares.mp4",
             "titulo": "Filmes Populares",
-            "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at tellus semper lacus varius suscipit. Suspendisse pulvinar, justo id scelerisque efficitur, quam augue pharetra metus, ultricies finibus elitipsum vitae. Cupiditate recusandae laudantium esse, harum animi aspernatur quisquam et delectus ipsum quam alias quaerat? Quasi hic quidem illum",
+            "descricao": "Uma plataforma que consome a API TMDB a qual fornece, de forma atualizada, uma lista dos filmes mais populares do momento, explicitando de maneira individual sua sinopse, sua pontuação de popularidade, seu título, ano o qual foi lançado e a imagem da capa do filme. Além de ser possível também pesquisar os filmes de seu interesse e criar uma lista particular de favoritos.",
             "data": "29 de abril de 2023",
             "projeto": "https://filmes-populares-nine.vercel.app/",
             "repositorio": "https://github.com/Jon-Araujo/numeroSecreto",
@@ -21,7 +21,7 @@
         {
             "video": "./videos/numeroSecreto.mp4",
             "titulo": "Adivinhar Número",
-            "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at tellus semper lacus varius suscipit. Suspendisse pulvinar, justo id scelerisque efficitur, quam augue pharetra metus, ultricies finibus elitipsum vitae. Cupiditate recusandae laudantium esse, harum animi aspernatur quisquam et delectus ipsum quam alias quaerat? Quasi hic quidem illum",
+            "descricao": "Um jogo de adivinhação que utiliza o reconhecimento de voz para identificar qual número o jogador está dizendo e a plataforma dá a dica se o número secreto a ser adivinhado é maior ou menor do que o número indicado. Além de poder dizer GAME OVER para o jogo terminar imediatamente e poder dizer JOGAR NOVAMENTE para o jogo reiniciar (após ter acertado o número secreto ou ter dito game over) - tendo também um botão para esta última funcionalidade.",
             "data": "28 de março de 2023",
             "projeto": "https://numero-secreto-brown-six.vercel.app/",
             "repositorio": "https://github.com/Jon-Araujo/numeroSecreto",
@@ -30,7 +30,7 @@
         {
             "video": "./videos/catalogoLivros.mp4",
             "titulo": "Catálogo de Livros",
-            "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at tellus semper lacus varius suscipit. Suspendisse pulvinar, justo id scelerisque efficitur, quam augue pharetra metus, ultricies finibus elitipsum vitae. Cupiditate recusandae laudantium esse, harum animi aspernatur quisquam et delectus ipsum quam alias quaerat? Quasi hic quidem illum",
+            "descricao": "Projeto que permite que o usuário adicione livros, utilizando o LocalStorage para armazenar a lista destes além de dispor, dinâmicamente, esta lista em forma de tabela na seção catálogo (presente no menu de navegação), sendo possível também excluir individualmente um livro apresentado nesta seção através de um botão, excluindo automáticamente no LocalStorage de forma a não ser apresentado novamente, mesmo que o usuário tenha atualizado a página.",
             "data": "27 de fevereiro de 2023",
             "projeto": "https://catalogo-de-livros-mu.vercel.app/",
             "repositorio": "https://github.com/Jon-Araujo/catalogo-de-livros",

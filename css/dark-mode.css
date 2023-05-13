@@ -1,11 +1,11 @@
-/*/////////////////////////// Dark-mode / Light-mode ///////////////////////////*/
+/*/////////////////////////// Botão Light-mode ///////////////////////////*/
+.btn-lightMode:hover .frase-dark {
+    display: none;
+}
 
-.btn-darkmode {
-    position: fixed;
-    top: 5rem;
-    right: 1rem;
-    max-width: 3rem;
-    max-height: 3rem;
+.btn-lightMode:hover .frase-light {
+    display: block;
+    background-color: var(--cor-cinza);
 }
 
 /*/////////////////////////// Principal ///////////////////////////*/

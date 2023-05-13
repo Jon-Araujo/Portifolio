@@ -27,5 +27,7 @@ export function darkmode() {
 
        certificacoes.classList.toggle('certificacoes-dark');
 
+       btnDark.classList.toggle('btn-lightMode')
+
     });
 }

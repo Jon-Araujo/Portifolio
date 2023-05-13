@@ -2,7 +2,7 @@ export async function popUpProjetos() {
     const listaJson = await (await fetch("./projetos.json")).json();
     const listaProjetos = listaJson.projetos;
     const cardVerMais = document.querySelectorAll('.card-projeto');
-    
+
     for (let i = 0; i < cardVerMais.length; i++) {
         cardVerMais[i].insertAdjacentHTML('afterend', `
             <div class="modal fade" id="card${i}" tabindex="-1" aria-labelledby="cardLabel${i}" aria-hidden="true">
@@ -13,7 +13,7 @@ export async function popUpProjetos() {
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body d-flex">
-                            <video style="width: 60%;" src="${listaProjetos[i].video}" width="440px" autoplay="true"></video>
+                            <video style="width: 60%;" src="${listaProjetos[i].video}" autoplay="autoplay" loop="loop"></video>
                             <div class="d-flex flex-column text-start" style="width: 40%; padding: 0 0.5rem 0 3rem;">
                                 <p class="fs-5 fw-normal">${listaProjetos[i].descricao}</p>
                                 <p class="fs-6">${listaProjetos[i].data}</p>
