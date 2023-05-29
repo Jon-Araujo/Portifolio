@@ -147,6 +147,10 @@ h3 {
     width: 100%;
 }
 
+.skills-card img {
+    max-width: 48px;
+}
+
 .icones-estudados {
     transition: 0.5s;
 }
@@ -465,7 +469,7 @@ h3 {
         padding: 11em 1em;
     }
 
-    .apresentacao > article > h2 {
+    .apresentacao>article>h2 {
         font-size: 0.5rem;
     }
 
