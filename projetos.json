@@ -35,6 +35,24 @@
             "projeto": "https://catalogo-de-livros-mu.vercel.app/",
             "repositorio": "https://github.com/Jon-Araujo/catalogo-de-livros",
             "linkedin": "https://www.linkedin.com/posts/dev-jonathan-araujo_mais-um-projeto-conclu%C3%ADdo-o-desafio-foi-activity-7036123256776474624-bCt5?utm_source=share&utm_medium=member_desktop"
+        },
+        {
+            "video": "./videos/agendamentoReunioes.mp4",
+            "titulo": "Agendamento de reuniões com o Comandante",
+            "descricao": "Sistema que proporciona o fim de grandes filas para despachar documentos ou algum assunto com o comandante, reservando um horário cada militar consegue otimizar seu tempo, uma vez que deixa de ter tempo ocioso de espera em fila. Além do próprio comandante poder reservar horários os quais não estará disponível, para que o militar também não desperdice tempo indo até a sala do comandante estando o mesmo indisponível.",
+            "data": "22 de maio de 2023",
+            "projeto": "https://agendamento-reunioes.vercel.app/",
+            "repositorio": "https://github.com/Jon-Araujo/agenda-encontro",
+            "linkedin": "https://www.linkedin.com/posts/dev-jonathan-araujo_github-jon-araujoagenda-encontro-projeto-activity-7081368561188843520-LwyV?utm_source=share&utm_medium=member_desktop"
+        },
+        {
+            "video": "./videos/listaTarefas.mp4",
+            "titulo": "Lista de Tarefas",
+            "descricao": "Essa lista de tarefas salva em seu LocalStorage as tarefas a serem realizadas, bem como suas descrições e prazo de entrega. As tarefas ficam dispostas para consulta por meio de cards, os quais você pode editar uma tarefa específica, excluir a mesma e indicar como concluída deixando-a com seus textos riscados e botão de concluído verde, indicando que a mesma já foi realizada. Projeto desenvolvido com o Framework VueJs, o pré-processador Sass e com a linguagem TypeScript.",
+            "data": "17 de junho de 2023",
+            "projeto": "https://lista-de-tarefas-beta-ten.vercel.app/?",
+            "repositorio": "https://github.com/Jon-Araujo/lista-tarefas-vue",
+            "linkedin": "https://www.linkedin.com/posts/dev-jonathan-araujo_github-jon-araujolista-tarefas-vue-%C3%A9-activity-7081365064028438528-02Ht?utm_source=share&utm_medium=member_desktop"
         }
     ]
 }

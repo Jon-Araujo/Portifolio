@@ -22,13 +22,6 @@ h3 {
     font-weight: 500 !important;
 }
 
-.access-button {
-    top: 15rem !important;
-    right: 0;
-    position: fixed !important;
-    max-width: 48px;
-}
-
 /*/////////////////////////// Navbar ///////////////////////////*/
 
 .navbar {
@@ -62,8 +55,8 @@ h3 {
 
 .btn-darkmode {
     position: fixed;
-    top: 8rem;
-    right: 0;
+    top: 16rem;
+    right: 0.4rem;
     z-index: 9999;
     padding-right: 0;
 }
@@ -153,6 +146,7 @@ h3 {
 
 .icones-estudados {
     transition: 0.5s;
+    max-width: 48px;
 }
 
 .icones-estudados:hover {
