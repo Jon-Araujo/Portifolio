@@ -159,57 +159,26 @@ h3 {
     background-repeat: no-repeat;
 }
 
-.btn-certificados {
-    transition: 0.5s all !important;
-}
-
-.btn-certificados:hover {
-    background-color: var(--cor-azul) !important;
-    color: #FFFFFF !important;
-}
-
-.btn-certificados:hover .seta-expande {
-    padding-left: 4rem !important;
-    transition: 0.5s;
-}
-
 .certificacoes {
-    flex-direction: row !important;
+    width: 97%;
+    margin: auto;
+    display: grid;
+    gap: 1.2rem;
+    padding: 1.2rem 0 1.2rem 0.6%;
+    grid-template-columns: repeat(6, 1fr);
     background-color: #F7F7F5 !important;
-    overflow-x: visible;
-    overflow-y: hidden;
+    flex-wrap: wrap;
     box-shadow: inset 0 0 25px;
-}
-
-.certificacoes::-webkit-scrollbar {
-    width: 18px;
-    height: 5px;
-}
-
-.certificacoes::-webkit-scrollbar-button {
-    background-color: none !important;
-    width: 0px;
-    height: 0px;
-}
-
-.certificacoes::-webkit-scrollbar-track-piece {
-    background-color: #E7E7E7;
-    -webkit-border-radius: 8px;
-}
-
-.certificacoes::-webkit-scrollbar-thumb:horizontal {
-    width: 3px;
-    background-color: var(--cor-azul);
-    -webkit-border-radius: 8px;
+    border-radius: 8px;
 }
 
 .img-certificacoes {
-    max-width: 400px;
+    width: 13rem;
     transition: 0.5s;
 }
 
 .img-certificacoes:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
     transition: 0.5s;
 }
 
@@ -223,7 +192,7 @@ h3 {
 
 .lista-cards {
     display: grid;
-    gap: 2rem;
+    gap: 2.5rem;
     grid-template-columns: repeat(3, 1fr);
 }
 
@@ -249,7 +218,6 @@ h3 {
 }
 
 .ver-mais-card {
-    display: none;
     width: 100%;
     background-color: var(--cor-azul);
     color: #FFFFFF;
@@ -263,10 +231,6 @@ h3 {
 .card-projeto:hover .img-projeto {
     opacity: 1;
     transition: 0.7s;
-}
-
-.card-projeto:hover .ver-mais-card {
-    display: block;
 }
 
 .card-projeto:hover .descricao-card {
@@ -362,7 +326,8 @@ h3 {
 #sobre--mim,
 #minhas--skills,
 #sec-projeto,
-#sec-contato {
+#sec-contato,
+#sec-certificados {
     min-height: 100vh;
 }
 
