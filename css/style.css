@@ -159,10 +159,23 @@ h3 {
     background-repeat: no-repeat;
 }
 
+.btn-certificacoes {
+    width: 40%;
+    border: none;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    transition: 0.1s;
+}
+
+.btn-certificacoes:hover {
+    border: 3px solid #030E4F;
+    border-radius: 20px;
+}
+
 .certificacoes {
+    display: none;
     width: 97%;
     margin: auto;
-    display: grid;
     gap: 1.2rem;
     padding: 1.2rem 0 1.2rem 0.6%;
     grid-template-columns: repeat(6, 1fr);
